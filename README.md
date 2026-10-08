@@ -80,6 +80,10 @@ The notebook contains multiple experiments and comparisons across different nois
 
 - `TestingNonLF.ipynb` — Main notebook containing the implementation and experiments.
 
+
 ## Notes
 
 This repository contains experimental research code rather than a production-ready machine-learning library. The notebook was developed to investigate a research question and explore different experimental configurations.
+
+## Disclaimer 
+The current code uses Gaussian noise for the active test case. The implemented functions support additional noise types, which can be tested individually at different times to allow simulations to run smoothly. Additional noise types and their parameters can also be specified manually.
